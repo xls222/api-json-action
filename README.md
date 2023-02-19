@@ -2,7 +2,9 @@
 GitHub Action to Generate api.json file at `.github/workflows/generate.yaml`
 
 ```yaml
-name: Generate api.json
+- name: api.json
+  uses: nathanclevenger/api-json-action@v0.2.0
+
 
 on:
   push:
